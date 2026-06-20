@@ -1,3 +1,3 @@
 # PSI-ALPHA: Quantum Fairness Framework...
 
-[Full draft content as previously generated]
+[Full expanded draft]
