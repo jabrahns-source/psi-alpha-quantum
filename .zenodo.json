@@ -1,1 +1,23 @@
-{...}
+{
+  "title": "PSI-ALPHA — Quantum Fairness Framework based on Oreshkov-Costa-Brukner process matrices",
+  "description": "Novel quantum-native primitives for verifiable multi-party computation, MEV resistance, and deterministic settlement in compliance infrastructure. Even The Odds Foundry research track.",
+  "creators": [
+    {
+      "name": "Sanders, Jacarri",
+      "affiliation": "Even The Odds Foundry / Kerna-Ledger"
+    }
+  ],
+  "keywords": [
+    "quantum process matrices",
+    "Oreshkov-Costa-Brukner",
+    "MEV resistance",
+    "verifiable multi-party computation",
+    "deterministic settlement",
+    "compliance infrastructure",
+    "PSI-ALPHA"
+  ],
+  "license": "mit",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open"
+}

@@ -1,23 +1,42 @@
-# PSI-ALPHA
+# PSI-ALPHA Quantum
 
-**Quantum Fairness Framework (Oreshkov-Costa-Brukner Process Matrices)**
+**Quantum Fairness Framework based on Oreshkov-Costa-Brukner process matrices**
 
-![DOI](https://zenodo.org/badge/DOI/pending.svg)
-![Stars](https://img.shields.io/github/stars/jabrahns-source/psi-alpha-quantum?style=social)
-![License](https://img.shields.io/badge/License-AGPL--3.0-blue)
-![Build](https://github.com/jabrahns-source/psi-alpha-quantum/actions/workflows/validate.yml/badge.svg)
+Even The Odds Foundry research track · Jacarri Sanders
 
-**Even The Odds Foundry** | Jacarri Sanders | June 2026
+---
 
-[Live Demo](https://jabrahns-source.github.io/denali-kerna-psi-demo) • [Whitepaper](PSI-ALPHA_Quantum_Whitepaper_v1.md) • [GitHub Pages](https://jabrahns-source.github.io/psi-alpha-quantum)
+## Status (2026-08-01 Health Audit)
 
-## Overview
-Quantum fairness primitives (W-states, 200ms finality) with hybrid integration to classical deterministic compliance.
+This repository currently hosts the **research whitepaper** and supporting metadata for PSI-ALPHA.
 
-## Quick Start
-See whitepaper and live demo.
+- Core contribution: quantum-native primitives for verifiable multi-party computation, MEV resistance, and deterministic settlement.
+- Formal process-matrix simulator and executable primitives are **not yet populated** in this tree (tracked under open issues).
+- Primary artifact: `PSI-ALPHA_Quantum_Whitepaper_v1.md` + HTML landing.
 
-## Status
-Research + demo ready. Full empirical validation included.
+## Design Principles (aligned with Kerna-Ledger / VERA)
 
-Contact: eventheoddsfoundry@gmail.com
+- Deterministic where classical projections are required.
+- Process-matrix formalism for indefinite causal order without sacrificing verifiability.
+- Zero stochastic drift in any classical interface or receipt generation path.
+- Open, inspectable, Chromebook-runnable research surface.
+
+## Related Foundry Repositories
+
+| Repo | Role |
+|------|------|
+| [Q-Reg](https://github.com/jabrahns-source/Q-Reg) | Formally verified deterministic compliance runtime |
+| [kerna-ledger-vci](https://github.com/jabrahns-source/kerna-ledger-vci) | VCI / Denali / VERA integration |
+| [vera-enterprise-engine](https://github.com/jabrahns-source/vera-enterprise-engine) | Production receipt ledger |
+| [phi-boundary-commitments](https://github.com/jabrahns-source/phi-boundary-commitments) | Golden-ratio state reduction |
+
+## License
+
+MIT — see LICENSE.
+
+## Contact
+
+Jacarri Sanders · Even The Odds Foundry  
+GitHub: [@jabrahns-source](https://github.com/jabrahns-source)
+
+Built under zero-budget constraints. The mathematics and the ledger speak for themselves.
